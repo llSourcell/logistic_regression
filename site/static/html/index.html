@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sentiment Analysis</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/sticky-footer.css" rel="stylesheet">
+
+  <!-- Include JQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Include custom JavaScript -->
+  <script src="static/js/app.js"></script>
+</head>
+
+<body>
+
+  <!-- Begin page content -->
+  <main role="main" class="container">
+    <h1 class="mt-5">Sentiment Analysis with Logistic Regression</h1>
+    <h2>Try it out!</h2>
+
+    <div id=form>
+      <form class="form-inline" id="tweet_form" onsubmit="return false">
+        <label class="sr-only" for="inlineFormInput">Name</label>
+        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="tweetText" placeholder="This is an awesome tweet!">
+        <button type="submit" class="btn btn-primary" onclick="classify()">Submit</button>
+      </form>
+    </div>
+    <img src="static/img/happy.svg" id="sentimentImg" alt="Tweet sentiment">
+    <p id='probText'></p>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Sentiment Analysis with Logistic Regression</span>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>

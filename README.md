@@ -1,5 +1,9 @@
 # Sentiment Analysis with Logistic Regression
 
+## Overview
+
+This is the code for [this](https://youtu.be/H6ii7NFdDeg) video on Youtube by Siraj Raval. 
+
 This repository contains a [jupyter][jupyter] notebook and the necessary data to implement
 sentiment analysis of tweets using Logistic Regression. Please open the notebook
 for more information.
@@ -41,3 +45,7 @@ work with **English twits**.
 
 [jupyter]: http://jupyter.org/
 [kaggle]: https://www.kaggle.com/c/twitter-sentiment-analysis2
+
+## Credits
+
+Credits for this code go to [guillermo-carrasco](https://github.com/guillermo-carrasco/logistic-sentiment)
